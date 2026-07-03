@@ -7,10 +7,10 @@
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/sweet
+DEVICE_PATH := device/xiaomi/courbet
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := courbet,courbetin
 
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
@@ -19,7 +19,8 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/sweet.config
+TARGET_KERNEL_CONFIG := vendor/sdmsteppe-perf_defconfig
+TARGET_KERNEL_CONFIG += vendor/courbet.config
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -38,7 +39,10 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_SCREEN_DENSITY := 440
 
 # Vendor security patch level
-VENDOR_SECURITY_PATCH := 2023-11-01
+VENDOR_SECURITY_PATCH := 2025-06-01
 
 # Inherit from proprietary files
-include vendor/xiaomi/sweet/BoardConfigVendor.mk
+include vendor/xiaomi/courbet/BoardConfigVendor.mk
+
+# MIUICamera
+-include vendor/miuicamera-sweet/BoardConfig.mk
