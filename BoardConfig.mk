@@ -20,7 +20,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sdmsteppe-perf_defconfig
-TARGET_KERNEL_CONFIG += vendor/courbet.config
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -45,4 +44,4 @@ VENDOR_SECURITY_PATCH := 2025-06-01
 include vendor/xiaomi/courbet/BoardConfigVendor.mk
 
 # MIUICamera
--include vendor/miuicamera-sweet/BoardConfig.mk
+include vendor/miuicamera-sweet/BoardConfig.mk
