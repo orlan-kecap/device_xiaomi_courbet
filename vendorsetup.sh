@@ -4,7 +4,7 @@ git clone https://github.com/orlan-kecap/device_xiaomi_sm6150-common.git -b 16.2
 git clone https://github.com/orlan-kecap/vendor_xiaomi_sm6150-common.git -b 16.2
 
 # device
-git clone https://github.com/orlan-kecap/vendor_xiaomi_courbet.git -b 16.2 vendor/xiaomi/courbet
+git clone https://github.com/orlan-kecap/vendor_xiaomi_courbet.git -b 23.2 vendor/xiaomi/courbet
 
 # kernel
 git clone https://github.com/orlan-kecap/Deandless-Road.git -b A16 kernel/xiaomi/sm6150
