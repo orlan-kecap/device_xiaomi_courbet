@@ -1,7 +1,7 @@
 # common
 
 git clone https://github.com/orlan-kecap/device_xiaomi_sm6150-common.git -b 16.2 device/xiaomi/sm6150-common
-git clone https://github.com/orlan-kecap/vendor_xiaomi_sm6150-common.git -b 16.2
+git clone https://github.com/orlan-kecap/vendor_xiaomi_sm6150-common.git -b 16.2 vendor/xiaomi/sm6150-common
 
 # device
 git clone https://github.com/orlan-kecap/vendor_xiaomi_courbet.git -b 23.2 vendor/xiaomi/courbet
