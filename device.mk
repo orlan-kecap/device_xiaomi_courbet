@@ -98,4 +98,4 @@ $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 TARGET_ENABLE_BLUR := true
 
 # MIUICamera
-$(call inherit-product-if-exists, vendor/miuicamera-sweet/device.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
