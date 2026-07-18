@@ -94,5 +94,8 @@ $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # MIUICamera
 $(call inherit-product-if-exists, vendor/miuicamera-sweet/device.mk)
