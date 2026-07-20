@@ -1,6 +1,6 @@
 # Device Tree for Xiaomi Mi 11 Lite 4G (courbet)
 
-![Xiaomi Mi 11 Lite 4G](YOUR_IMAGE_LINK)
+![Xiaomi Mi 11 Lite 4G](https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1623401469.63435134.png)
 
 Device tree for the Xiaomi Mi 11 Lite 4G (courbet), used for building AOSP/LineageOS-based custom ROMs.
 
