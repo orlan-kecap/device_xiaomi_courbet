@@ -2,8 +2,7 @@
 
 ![Xiaomi Mi 11 Lite 4G](https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1623401469.63435134.png)
 
-Device tree for the Xiaomi Mi 11 Lite 4G (courbet), used for building AOSP/LineageOS-based custom ROMs.
-
+Device tree for the Xiaomi Mi 11 Lite 4G (courbet)
 
 ## 📱 Basic Specifications
 
@@ -18,5 +17,5 @@ Device tree for the Xiaomi Mi 11 Lite 4G (courbet), used for building AOSP/Linea
 | **Rear Camera**  | 64 MP (wide) + 8 MP (ultrawide) + 5 MP (macro) |
 | **Front Camera** | 16 MP                                |
 | **Battery**      | 4250 mAh, 33W fast charging          |
-| **Original OS**  | Android 11, MIUI 12                  |
+| **Original OS**  | Android 11, MIUI 12 up to MIUI 14 Android 13                |
 
