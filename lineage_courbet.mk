@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/courbet/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set Miuicamera version
-TARGET_USES_LEICA_HOLY45 := true
+TARGET_USES_LEICA_HOLY50 := true
 
 PRODUCT_NAME := lineage_courbet
 PRODUCT_DEVICE := courbet
