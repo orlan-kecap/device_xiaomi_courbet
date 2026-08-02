@@ -15,8 +15,11 @@ $(call inherit-product, device/xiaomi/courbet/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Set Miuicamera version
-TARGET_USES_LEICA_HOLY50 := true
+TARGET_SCREEN_WIDTH := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur
+TARGET_ENABLE_BLUR := true
 
 PRODUCT_NAME := lineage_courbet
 PRODUCT_DEVICE := courbet
