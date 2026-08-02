@@ -7,6 +7,9 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
+# MIUICamera
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
+
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -93,6 +96,3 @@ $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
 # GAPPS
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
-# MIUICamera
-$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
