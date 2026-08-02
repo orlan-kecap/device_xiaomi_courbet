@@ -45,3 +45,6 @@ include vendor/xiaomi/courbet/BoardConfigVendor.mk
 
 # MIUICamera
 -include vendor/miuicamera-sweet/BoardConfig.mk
+
+# Dolby
+include vendor/lunaris/dolby/BoardConfigDolby.mk
