@@ -19,7 +19,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := courbet_defconfig
+TARGET_KERNEL_CONFIG := vendor/acis_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -38,7 +38,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_SCREEN_DENSITY := 440
 
 # Vendor security patch level
-VENDOR_SECURITY_PATCH := 2025-06-01
+VENDOR_SECURITY_PATCH := 2026-06-01
 
 # Inherit from proprietary files
 include vendor/xiaomi/courbet/BoardConfigVendor.mk
