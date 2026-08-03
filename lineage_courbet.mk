@@ -18,9 +18,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Blur
-TARGET_ENABLE_BLUR := true
-
 PRODUCT_NAME := lineage_courbet
 PRODUCT_DEVICE := courbet
 PRODUCT_BRAND := Xiaomi
