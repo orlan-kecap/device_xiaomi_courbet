@@ -12,8 +12,10 @@ git clone https://github.com/orlan-kecap/Aciss-mainline.git -b los kernel/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 
 # Miui Camera
-git clone https://github.com/xiaomi-sm6150/android_device_xiaomi_miuicamera-sweet.git device/xiaomi/miuicamera-sweet
-git clone https://github.com/xiaomi-sm6150/proprietary_vendor_xiaomi_miuicamera-sweet.git vendor/xiaomi/miuicamera-sweet
+# git clone https://github.com/xiaomi-sm6150/android_device_xiaomi_miuicamera-sweet.git device/xiaomi/miuicamera-sweet
+# git clone https://github.com/xiaomi-sm6150/proprietary_vendor_xiaomi_miuicamera-sweet.git vendor/xiaomi/miuicamera-sweet
+git clone https://github.com/meloalfa159/vendor_xiaomi_miuicamera-sweet.git -b 16.0-old vendor/xiaomi/miuicamera-sweet
+git clone https://github.com/meloalfa159/device_xiaomi_miuicamera-sweet.git device/xiaomi/miuicamera-sweet
 
 # DolbyAtmos
 git clone https://github.com/manipvlator/proprietary_vendor_sony_dolby.git vendor/sony/dolby
