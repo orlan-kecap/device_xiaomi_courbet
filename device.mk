@@ -96,6 +96,3 @@ $(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
 # GAPPS
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
-# Dolby
-$(call inherit-product, vendor/lunaris/dolby/dolby.mk)
