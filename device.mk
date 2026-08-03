@@ -10,6 +10,16 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 # MIUICamera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
 
+# Inherit from Dolby Atmos
+$(call inherit-product, vendor/sony/dolby/dolby.mk)
+
+# Call the proprietary setup
+$(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
+
+# GAPPS
+WITH_GMS := true
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -89,10 +99,3 @@ PRODUCT_COPY_FILES += \
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
-
-# Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/courbet/courbet-vendor.mk)
-
-# GAPPS
-WITH_GMS := true
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
